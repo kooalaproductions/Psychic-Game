@@ -72,7 +72,7 @@ document.onkeyup = function (event) {
             left--;
             //will run once there are not more tries left
             if (left === 0) {
-                alert("Game is over! Try Again!");
+                alert("HAHA YOU LOST! Try again loser!! :P");
                 loses = loses + 1;
                 left = 9;
                 uGuess = [];
