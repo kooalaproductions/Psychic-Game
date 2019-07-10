@@ -43,8 +43,7 @@ document.onkeyup = function (event) {
 
     //checks array to see if any of the keys match with the array and if so return true
     var check = computerChoices.includes(userGuess);
-    //pushes elements to uGuess array
-    uGuess.push(userGuess);
+    
 
     //this will run when user and computer match
     if (check === false) {
@@ -53,6 +52,8 @@ document.onkeyup = function (event) {
     }
     //run if conditions are true
     if (left !== 0 && check === true) {
+        //pushes elements to uGuess array
+    uGuess.push(userGuess);
 
 
         if (userGuess === computerGuess) {
